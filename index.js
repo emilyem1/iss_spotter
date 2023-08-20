@@ -1,6 +1,8 @@
 // index.js
 const { fetchMyIP, fetchCoordsByIP, fetchISSFlyOverTimes } = require('./iss');
 
+// Test for fetchISSFlyOverTimes
+/*
 const coords = {
   latitude: 49.2827291,
   longitude: -123.1207375
@@ -12,7 +14,7 @@ fetchISSFlyOverTimes(coords, (error, flyover) => {
     return;
   }
   console.log('It worked! This is your risetime + duration:' , flyover);
-});
+}); */
 
 // Test for fetchCoordsByIp
 /*
